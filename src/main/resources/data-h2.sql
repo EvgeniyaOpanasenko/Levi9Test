@@ -1,0 +1,15 @@
+INSERT INTO USERS (ID, USER_NAME, PASSWORD, ROLE) VALUES
+  (1, 'usr1', 'bigSecret', 'ROLE_ADMIN');
+
+  INSERT INTO POSTS(CONTENT, TITLE,USER_ID) VALUES
+  ('From Shire' , 'Frodo',1);
+
+  INSERT INTO POSTS(CONTENT, TITLE,USER_ID) VALUES
+  ('The wisard', 'Gendelf',1);
+
+  INSERT INTO POSTS(CONTENT, TITLE,USER_ID) VALUES
+  ('Local princess', 'Eurin',1);
+
+  INSERT INTO POSTS(CONTENT, TITLE,USER_ID) VALUES
+  ('Some prince', 'Tor',1);
+
